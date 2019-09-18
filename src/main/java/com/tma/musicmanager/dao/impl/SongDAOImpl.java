@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 package com.tma.musicmanager.dao.impl;
 
@@ -58,4 +59,12 @@ public class SongDAOImpl implements SongDAO {
 		list.addAll(c);
 		return list;
 	}
+=======
+package com.tma.musicmanager.dao.impl;
+
+import com.tma.musicmanager.dao.SongDAO;
+
+public class SongDAOImpl implements SongDAO {
+
+>>>>>>> parent of 216f59c... Update model
 }
