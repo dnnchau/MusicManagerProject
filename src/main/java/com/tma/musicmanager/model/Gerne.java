@@ -16,6 +16,7 @@ public class Gerne {
 	private String gerneName;
 	private String gerneDesc;
 	private Set<Song> song = new HashSet<Song>(0);
+
 	public Gerne() {
 	}
 
@@ -53,7 +54,6 @@ public class Gerne {
 		this.gerneDesc = gerneDesc;
 	}
 
-	
 	@OneToMany(mappedBy = "gerne")
 	public Set<Song> getSong() {
 		return song;
@@ -63,4 +63,3 @@ public class Gerne {
 		this.song = song;
 	}
 }
-

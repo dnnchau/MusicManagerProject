@@ -16,6 +16,7 @@ public class Singer {
 	private Integer singerID;
 	private String singerName;
 	private String singerDesc;
+	private Set<Song> song = new HashSet<Song>();
 
 	public Singer() {
 	}
@@ -54,8 +55,6 @@ public class Singer {
 	public void setSingerDesc(String singerDesc) {
 		this.singerDesc = singerDesc;
 	}
-
-	private Set<Song> song = new HashSet<Song>();
 
 	@ManyToMany(fetch = FetchType.LAZY, mappedBy = "singer")
 
