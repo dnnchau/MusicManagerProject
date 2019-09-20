@@ -18,14 +18,14 @@ public class QueryTest {
 		try {
 			session.getTransaction().begin();
 
-			
-			  String sql = "Select s from " + Song.class.getName() + " s " ; Query<Song>
-			  query = session.createQuery(sql); List<Song> song = query.getResultList();
-			  for (Song songs : song) { System.out.println("Song ID: " + songs.getSongId()
-			  + " - Song Name: " + songs.getSongName() + " - lyrics: "+songs.getLyrics() +
-			  " - Gerne: "+songs.getGerne().getGerneName()
-			  +" - Composer: "+songs.getComposer().getComposerName() ); }
-			 
+			String sql = "Select s from " + Song.class.getName() + " s ";
+			Query<Song> query = session.createQuery(sql);
+			List<Song> song = query.getResultList();
+			for (Song songs : song) {
+				System.out.println("Song ID: " + songs.getSongId() + " - Song Name: " + songs.getSongName()
+						+ " - lyrics: " + songs.getLyrics() + " - Gerne: " + songs.getGerne().getGerneName()
+						+ " - Composer: " + songs.getComposer().getComposerName());
+			}
 
 			/*
 			 * String sql = "Select g from " + Gerne.class.getName() + " g "; Query<Gerne>

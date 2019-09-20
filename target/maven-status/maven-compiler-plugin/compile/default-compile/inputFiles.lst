@@ -1,0 +1,15 @@
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\dao\SongDAO.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\config\SpringWebAppInitializer.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\model\Composer.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\hibernate\HibernateUtils.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\dao\impl\SongDAOImpl.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\model\Singer.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\model\Gerne.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\service\impl\SongServiceImpl.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\service\SongService.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\controller\MainRestController.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\config\WebMvcConfig.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\config\ApplicationContextConfig.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\hibernate\queryTest\QueryTest.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\model\Song.java
+D:\MusicManagerProject\MusicManagerProject\src\main\java\com\tma\musicmanager\controller\SongRESTController.java
